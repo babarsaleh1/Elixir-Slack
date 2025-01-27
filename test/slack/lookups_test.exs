@@ -88,3 +88,4 @@ defmodule Slack.LookupsTest do
     assert Lookups.lookup_channel_name("G456", slack) == "#channel"
   end
 end
+slack = %{users: %{"U123" => %{name: "user", id: "U123", profile: %{display_name: "user.user.fix
